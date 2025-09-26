@@ -1,0 +1,21 @@
+/* Importar fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@400;700&display=swap');
+
+/* Reset básico e estilos globais */
+body {
+  margin: 0;
+  font-family: 'Archivo Narrow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2F2E2E;
+  color: #FEFEFE;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Evita barras de rolagem desnecessárias */
+}
+
+#root {
+  height: 100%;
+}

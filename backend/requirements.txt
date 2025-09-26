@@ -1,0 +1,21 @@
+# Framework principal
+Flask
+
+# Para interagir com o banco de dados (será usado com PostgreSQL)
+Flask-SQLAlchemy
+psycopg2-binary
+
+# Para gerenciar migrações do banco de dados
+Flask-Migrate
+
+# Para lidar com CORS (Cross-Origin Resource Sharing) entre frontend e backend
+Flask-Cors
+
+# Para hashing de senhas
+bcrypt
+
+# Para autenticação com JSON Web Tokens (JWT)
+PyJWT
+
+# Para carregar variáveis de ambiente de arquivos .env
+python-dotenv
